@@ -20,4 +20,5 @@ mybatis-plus:
 
 reggie:
   path:
-    D:\Project\Java_Project\FutureScience\reggie\reggie_tabke_out\pic\
+    /usr/local/reggie/pic/
+    #D:\Project\Java_Project\FutureScience\reggie\reggie_tabke_out\pic\
