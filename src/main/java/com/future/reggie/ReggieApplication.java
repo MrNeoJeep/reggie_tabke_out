@@ -12,6 +12,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ServletComponentScan
 @EnableCaching
 public class ReggieApplication {
+    static {
+        System.setProperty("druid.mysql.usePingMethod","false");
+    }
     public static void main(String[] args) {
         SpringApplication.run(ReggieApplication.class,args);
         log.info("this project starts now!");
