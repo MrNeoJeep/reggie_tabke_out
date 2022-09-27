@@ -3,6 +3,7 @@ server:
 spring:
   application:
     name: reggie_take_out
+
   shardingsphere:
     datasource:
       names:
@@ -60,5 +61,5 @@ mybatis-plus:
 
 reggie:
   path:
-    #/usr/local/reggie/pic/
-    D:\Project\Java_Project\FutureScience\reggie\reggie_tabke_out\pic\
+    /usr/local/reggie/pic/
+    #D:\Project\Java_Project\FutureScience\reggie\reggie_tabke_out\pic\
